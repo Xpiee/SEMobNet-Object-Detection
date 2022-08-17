@@ -1,6 +1,6 @@
 # SEMobNet-Object-Detection
 
-## To start training the model from Scratch Please follow the following steps:
+## To start training the model from scratch please follow below steps:
 
 1. Please download the PASCAL VOC 2007 and VOC 2012 dataset from the PASCAL VOC website.
 2. Place the downloaded dataset in the directory '\ssd_mobv2\data\VOCdevkit'
