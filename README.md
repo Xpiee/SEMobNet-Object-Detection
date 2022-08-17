@@ -2,7 +2,7 @@
 
 I propose a lightweight object detection framework that consists of a modified MobileNetv2 network for learning the feature maps that are further used by an SSD300 pipeline to classify and locate objects in an image. In the modified MobileNetv2 architecture, a squeeze and excitation (SE) block is added to the bottleneck residual block. This modified block is used as the basic block for the MobileNetv2 network. The SE block can exploit the channelwise inter-dependencies in the output features maps of the depth separable convolution layer (in the bottleneck residual block). Experimental results on the VOC 2007 dataset confirm that with the addition of SE block, there is an increase in the mean average precision (mAP) of approximately 1%.
 
-![object detection: birds](birds.pdf)
+![object detection: birds](images/birds.png)
 
 ## To start training the model from scratch please follow below steps:
 
